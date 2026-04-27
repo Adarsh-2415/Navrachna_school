@@ -75,7 +75,7 @@ const Footer = ({ onNavigate }) => {
           <motion.div variants={itemVariants} className="flex flex-col gap-6">
             <div className="inline-flex items-center gap-4 bg-transparent self-start">
               <div className="bg-white p-1 rounded-full flex items-center justify-center shadow-[0_2px_12px_rgba(255,255,255,0.05)]">
-                <img src="/images/school-logo.jpg" alt="Navrachna Public School Logo" className="h-14 w-14 md:h-16 md:w-16 object-cover rounded-full" />
+                <img src={`${import.meta.env.BASE_URL}images/school-logo.jpg`} alt="Navrachna Public School Logo" className="h-14 w-14 md:h-16 md:w-16 object-cover rounded-full" />
               </div>
               <div className="flex flex-col items-start leading-none">
                 <span className="font-black text-xl md:text-2xl tracking-tighter text-white">
@@ -149,7 +149,7 @@ const Footer = ({ onNavigate }) => {
             >
               <div className="p-3 flex items-center gap-3 border-b border-gray-100">
                 <div className="w-10 h-10 rounded-sm bg-white flex items-center justify-center overflow-hidden shrink-0 shadow-sm border border-gray-100 p-0.5">
-                  <img src="/images/school-logo.jpg" alt="School Logo" className="w-full h-full object-contain mix-blend-multiply" />
+                  <img src={`${import.meta.env.BASE_URL}images/school-logo.jpg`} alt="School Logo" className="w-full h-full object-contain mix-blend-multiply" />
                 </div>
                 <div className="flex flex-col w-full overflow-hidden">
                   <span className="text-[#385898] font-semibold text-[13px] leading-tight group-hover:underline cursor-pointer truncate w-full">Navrachna Public School</span>

@@ -27,7 +27,7 @@ const Library = () => {
             <section className="relative min-h-[600px] lg:h-[80vh] flex items-center justify-center bg-[#0D2C54] pt-28 pb-32 overflow-hidden">
                 <div className="absolute inset-0">
                     <img
-                        src="/images/library_premium.png"
+                        src={`${import.meta.env.BASE_URL}images/library_premium.png`}
                         alt="Library"
                         className="w-full h-full object-cover opacity-60"
                     />

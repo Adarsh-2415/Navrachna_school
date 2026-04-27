@@ -117,7 +117,7 @@ const Header = ({ activePage, onNavigate }) => {
                             onClick={() => onNavigate('home')}
                             className="group flex flex-row items-center gap-3 md:gap-4"
                         >
-                            <img src="/images/school-logo.jpg" alt="Navrachna Public School Logo" className="h-14 md:h-[68px] w-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-sm mix-blend-multiply" />
+                            <img src={`${import.meta.env.BASE_URL}images/school-logo.jpg`} alt="Navrachna Public School Logo" className="h-14 md:h-[68px] w-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-sm mix-blend-multiply" />
                             <div className="flex flex-col items-start leading-none hidden sm:flex">
                                 <span className="font-black text-xl md:text-2xl tracking-tighter text-[#0D2C54] group-hover:text-primary transition-colors">
                                     NAVRACHNA
