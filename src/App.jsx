@@ -10,17 +10,17 @@ import Infrastructure from './components/Infrastructure';
 import VisionMission from './components/VisionMission';
 import WhyNavrachna from './components/WhyNavrachna';
 import ContactSection from './components/ContactSection';
-import Disclosures from './components/Disclosures';
 import Footer from './components/Footer';
-import RulesGuidelines from './components/RulesGuidelines';
-import Classroom from './components/Classroom';
-import Admissions from './components/Admissions';
-import Library from './components/Library';
-import ComputerLab from './components/ComputerLab';
-import Gallery from './components/Gallery';
 import WhatsAppButton from './components/WhatsAppButton';
-import FeeStructure from './components/FeeStructure';
-import HolidayList from './components/HolidayList';
+import Disclosures from './pages/Disclosures';
+import RulesGuidelines from './pages/RulesGuidelines';
+import Classroom from './pages/Classroom';
+import Admissions from './pages/Admissions';
+import Library from './pages/Library';
+import ComputerLab from './pages/ComputerLab';
+import Gallery from './pages/Gallery';
+import FeeStructure from './pages/FeeStructure';
+import HolidayList from './pages/HolidayList';
 
 const FloatingIcon = ({ icon: Icon, delay = 0, size = 60, top, left, right, bottom, color = "#000000", rotate = 0 }) => (
   <motion.div
