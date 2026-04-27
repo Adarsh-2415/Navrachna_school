@@ -39,9 +39,6 @@ A modern, responsive, and feature-rich school management website built with **Re
    npm run dev
    ```
 
-## 🔐 Admin Access
-
-The admin panel is accessible via the `/admin` route. Authorized users can manage announcements, gallery images, and school details.
 
 ---
 Built with ❤️ for Navrachna School.
