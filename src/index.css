@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-gray-800 antialiased;
+  }
+}
+
+/* Hide Google Translate Top Bar */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+/* Style the widget */
+#google_translate_element select {
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  color: #0D2C54 !important;
+  cursor: pointer !important;
+  outline: none !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.goog-te-gadget-simple {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  font-family: inherit !important;
+}
+
+.goog-te-gadget img,
+.goog-te-gadget-icon {
+  display: none !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span {
+  color: #0D2C54 !important;
+  font-weight: 900 !important;
+  font-size: 13px !important;
+  text-transform: uppercase !important;
+}
+
+/* Hide the arrow if possible */
+.goog-te-menu-value img {
+  display: none !important;
+}
+
+/* Announcement Bar Marquee Animation */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-25%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee-scroll 20s linear infinite !important;
+  display: flex !important;
+}
+
+.marquee-wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+.pause-animation {
+  animation-play-state: paused !important;
+}
